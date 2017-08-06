@@ -1,4 +1,5 @@
-
+(function () {
+  'use strict';
 
   var contactDisplay = document.getElementById('contact-display');
   var phone = document.getElementById('phone-icon');
@@ -16,3 +17,5 @@
   email.onclick = function() {
     contactDisplay.innerHTML = address;
   }
+
+})();
