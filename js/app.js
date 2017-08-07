@@ -5,7 +5,7 @@
   var phone = document.getElementById('phone-icon');
   var email = document.getElementById('email-icon');
   var phoneNumber = '864-322-3201';
-  var address = 'thedoyles922@gmail.com'
+  var address = 'Doyle.Jamie.M@gmail.com'
   console.log(contactDisplay);
   console.log(phone);
   console.log(email);
