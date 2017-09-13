@@ -138,8 +138,8 @@ body {
 }
 
 .img-1 {
-  height: 100%;
-  width: 80%;
+  height: 50vh;
+  width: 25vw;
   border-radius: 2%;
 }
 
@@ -225,5 +225,9 @@ body {
 @media screen and  (max-width: 568px){
   .white {
     color: rgb(190, 190, 190);
+  }
+
+  .profile-section {
+    flex-direction: column;
   }
 }
